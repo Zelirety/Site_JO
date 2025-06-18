@@ -1,0 +1,773 @@
+body{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0;
+}
+
+header nav{
+    background-color: #223363;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    margin: 1em;
+    margin-left: 10em;
+}
+
+header nav img{
+    margin-left: 1em;
+    width: 80px;
+    height: 80px;
+}
+
+header nav ul li a:link, header nav ul li a:visited{
+    margin: 0 0.5em;
+    color: #D6C075;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul li{
+    width: 18vm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.7em;
+    color: #D6C075;
+    background-color: #223363;
+    padding: 0.7em;
+    padding-right: 5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D6C075;
+    border-radius: 8px;
+    list-style: none;
+}
+
+header nav ul li img{
+    display: flex;
+    padding-left: 0.5em;
+    padding-right: 3em;
+    width: 40px;
+    height: 40px;
+}
+
+header div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0em 3em;
+}
+
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1C2747;
+    align-items: center;
+    padding: 1em 1em;
+    justify-content: flex-start;
+    border-bottom: 10px solid #D6C075;
+    
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: #D6C075;
+    font-weight: bold;
+    font-size: 128px;
+}
+h2{
+    font-size: 64px;
+}
+p{
+    font-size: 32px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.intro article{
+    background-color: #C6A6CF;
+    border-radius: 40px;
+    width: 62%;
+    padding: 1em;
+    box-shadow: -20px 20px 20px rgba(0,0,0,.25);
+}
+
+.intro article div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro article div h2{
+    background-color: rgb(47, 127, 238);
+    padding: 0.2em 3vw;
+    border-radius: 40px;
+}
+
+.intro article img{
+    background-color: white;
+    border-radius: 50%;
+    width : 156px;
+    height: 156px;
+}
+
+
+#chill_mascotte{
+    width: 400px;
+    height: 240px;
+    margin-right: -200px;
+    margin-top: -146px;
+    z-index: 1;
+}
+
+.classement{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -500px;
+}
+
+.classement table{
+    border-collapse: collapse;
+}
+
+.classement table thead tr{
+    color:#D6C075;
+    background-color: #1C2747;
+    width: 4vw;
+    height: 7vh;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.classement table thead tr img{
+    width: 40px;
+    height: 40px;
+}
+
+.classement table tbody tr:nth-child(2n){
+    background-color: #9C6D83;
+    border-left: 2px solid black;
+}
+.classement table tbody tr:nth-child(2n - 1){
+    background-color: #F2ABCB;
+    border-left: 2px solid black;
+}
+.classement table tbody img{
+    width: 50px;
+    height: 33px;
+}
+.classement table tfoot img{
+    width: 50px;
+    height: 33px;
+}
+
+.classement table tfoot tr{
+    background-color: #F2ABCB;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.classement table tr td{
+    text-align: center;
+    width: 4vw;
+    height: 7vh;
+    font-weight: bold;
+}
+.classement table tr td:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    gap: 10px;
+}
+
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#F2ABCB;
+    background-color:#1C2747;
+    border-top: 15px solid #D6C075;
+    border-bottom: 15px solid #D6C075;
+}
+#rectangle{
+    width:35%;
+    height:2px;
+    background:white;
+}
+
+
+
+
+#page_active{
+    background-color: #D6C075;
+}
+
+#page_active a{
+    color: #223363;
+}
+
+
+
+/*
+ YANN
+ */
+ .MAP{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MAP p{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:#d6c075 ;
+    align-items: center;
+    width: 15em;
+    height: 20em;
+    padding-left: 5em;
+    padding-right: 3em;
+    line-height: 2em;
+    margin-top: 4em;
+    box-shadow: 20px 20px 0px rgba(158, 141, 86, 0.8);
+}
+
+iframe{
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+.LIEU h2{
+
+        background-color: #1b2950;
+        color:#f2abcb;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 3em;
+        font-weight: bold;
+        
+}
+
+.NAV {
+    background-color: rgba(0, 0, 0, .8);
+    width: 35%;
+    position: absolute;
+    margin-left: 65em;
+    margin-top: 5em;
+    padding-top: 5em;
+    padding-bottom:5em;
+    line-height:8em;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.NAV a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column; 
+    align-items: center;
+    color: #f2abcb;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #1993d2;
+    
+}
+.IMGHEAD {
+    background-image: url(ress/img/header.png);
+    padding-bottom: 55em;
+}
+.LESITESPORTIF h2{
+
+    background-color: #1b2950;
+    color:#f2abcb;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 10px solid #d6c075;
+    border-top: 10px solid #d6c075;
+    
+}
+
+.LESITESPORTIF h1{
+    color:#c6a6cf;
+    display: flex;
+}
+
+
+
+.SITE p{
+    font-size: 30px;
+    display: flex;
+    background-color:#f2abcb ;
+    align-items: center;
+    width: 10em;
+    height: 15em;
+    padding-left: 5em;
+    padding-right: 3em;
+    line-height: 2em;
+    margin-top: 4em;
+    box-shadow: -20px 20px 0px rgba(196, 166, 207, 0.8);
+    border-radius: 3%;
+}
+.IMGFLEX{
+    display: inline-flex;
+}
+.ARENA{
+    display: flex;
+    flex-direction: column;
+    margin-left:3em ;
+}
+
+.PREMIERS h2{
+
+    background-color: #1b2950;
+    color:#f2abcb;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 10px solid #d6c075;
+    border-top: 10px solid #d6c075;
+    
+    
+}
+
+
+/* Reset */
+
+
+/* Conteneur principal */
+
+
+.players {
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Bloc joueur */
+.player {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #ffd1dc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    transition: transform 0.3s ease;
+    
+}
+
+.player:hover {
+    transform: scale(1.02);
+}
+
+/* Image */
+.player img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 5px #0003;
+}
+
+/* Nom du joueur */
+.player p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.player p span {
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+
+
+
+.podium h2{
+
+    background-color: #1b2950;
+    color:#f2abcb;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 10px solid #d6c075;
+    border-top: 10px solid #d6c075;
+    
+    
+}
+.podium1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Styles spécifiques aux articles du podium */
+.podium-place {
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.podium-place figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.podium-place img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -30px;
+}
+
+.podium-place .position {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.podium-place .name {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Styles des podiums */
+.gold, .silver, .bronze {
+    background-color: #ccc;
+    height: 20em;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gold {
+    background-color: gold;
+    height: 25em;
+}
+
+.silver {
+    background-color: silver;
+    height: 20em;
+}
+
+.bronze {
+    background-color: #cd7f32;
+    height: 15em;
+}
+.silver img {
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.gold img {
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.bronze img {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+.gold figcaption {
+    margin-top: 2em;
+}
+.silver figcaption {
+    margin-top: 2em;
+}
+.bronze figcaption {
+    margin-top: 2em;
+}
+
+.table-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-header {
+    background-color: #f8d6e3;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.8rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+.perso {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.perso img {
+    width: 20px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.perso span {
+    font-weight: bold;
+}
+
+.winner {
+    background-color: #f8d6e3;
+}
+
+.score {
+    color: #333;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* =========================
+   Media Queries
+   ========================= */
+
+/* Grand écran : 1200px et plus */
+@media screen and (min-width: 1200px) {
+    .MAP {
+        justify-content: space-evenly;
+    }
+
+    .MAP p {
+        width: 20em;
+        height: 25em;
+        font-size: 28px;
+        padding: 2em;
+        line-height: 2.5em;
+    }
+
+    iframe {
+        margin-left: 8em;
+        margin-top: 5em;
+    }
+
+    .NAV {
+        width: 25%;
+        margin-left: 70em;
+        margin-top: 5em;
+        padding: 4em;
+    }
+
+    .LESITESPORTIF h2 {
+        font-size: 4em;
+    }
+
+    .SITE p {
+        width: 12em;
+        height: 18em;
+        font-size: 28px;
+        padding: 2em;
+    }
+
+    .podium-place img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .gold {
+        height: 30em;
+    }
+
+    .silver {
+        height: 25em;
+    }
+
+    .bronze {
+        height: 20em;
+    }
+}
+
+/* Tablette : Entre 768px et 1200px */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .MAP {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MAP p {
+        width: 18em;
+        height: 20em;
+        font-size: 24px;
+        padding: 1.5em;
+    }
+
+    iframe {
+        margin-left: 2em;
+        margin-top: 2em;
+        width: 90%;
+    }
+
+    .NAV {
+        width: 50%;
+        margin-left: 4em;
+        padding: 3em;
+        line-height: 6em;
+    }
+
+    .LESITESPORTIF h2 {
+        font-size: 3.5em;
+    }
+
+    .SITE p {
+        width: 10em;
+        height: 16em;
+        font-size: 24px;
+        padding: 1.5em;
+    }
+
+    .podium1 {
+        gap: 10px;
+    }
+
+    .podium-place {
+        width: auto;
+    }
+
+    .gold {
+        height: 25em;
+    }
+
+    .silver {
+        height: 20em;
+    }
+
+    .bronze {
+        height: 15em;
+    }
+}
+
+/* Mobile : Moins de 768px */
+@media screen and (max-width: 767px) {
+    .MAP {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MAP p {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        padding: 1em;
+        line-height: 1.8em;
+        margin-top: 1em;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 2em;
+        width: 100%;
+        height: auto;
+    }
+
+    .NAV {
+        width: 100%;
+        margin: 0;
+        padding: 2em;
+        line-height: 4em;
+    }
+
+    .LESITESPORTIF h2 {
+        font-size: 2.5em;
+        padding: 0.5em;
+    }
+
+    .SITE p {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        padding: 1em;
+    }
+
+    .podium1 {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .podium-place {
+        width: auto;
+        margin-bottom: 1em;
+    }
+
+    .gold,
+    .silver,
+    .bronze {
+        height: auto;
+        padding: 1em;
+    }
+
+    .gold img,
+    .silver img,
+    .bronze img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
