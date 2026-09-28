@@ -1,2 +1,1 @@
-# Site_JO
-Le site des jeux olympiques hand made 
+Showcase website of the Olympic Games of Paris 2026
